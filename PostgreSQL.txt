@@ -1,1 +1,3 @@
-SELECT 'Olá Mundo!'
+--Comentário
+--Criação de Banco de Dados:
+create database empresarial;
