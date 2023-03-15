@@ -1,0 +1,18 @@
+Tipos:
+	Numérico;
+		-Inteiros (integer),
+		-Fracionados,
+	Moeda (numeric (tamanho, precisão));
+	Data e Hora (timestamp, date, time);
+	Texto;
+		-Texto Curto (char(n), varchar(n)),
+		-Texto Longo (text)
+	Booleano (boolean);
+	Número Serial (serial);
+
+
+Atributos:
+	Chave Primária (PK - Primary Key);
+	Chave Estrangeira (FK - Foreign Key);
+	Serial (AI - Auto Increment);
+	Não Nulo (NN - Not Null);
