@@ -1,0 +1,6 @@
+--Inserção
+ INSERT INTO <nome da tabela>
+(<coluna1, coluna2, ..., colunaN)
+VALUES
+('valor1', 'valor2', ..., 'valorN')
+
