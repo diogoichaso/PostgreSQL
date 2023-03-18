@@ -2,5 +2,51 @@
  INSERT INTO <nome da tabela>
 (<coluna1, coluna2, ..., colunaN)
 VALUES
-('valor1', 'valor2', ..., 'valorN')
+('valor1', 'valor2', ..., 'valorN');
 
+--Seleção
+SELECT <coluna1>, <coluna2>, ..., <colunaN>
+FROM <nome tabela>;
+
+--Seleção de todas as colunas
+SELECT *
+FROM <nome tabela>;
+
+-- Filtro com distinção (Não repete iguais)
+SELECT DISTINCT <coluna1>, <coluna2>, ...
+FROM <nome tabela>
+
+--Filtro com condições
+SELECT <coluna1>, <coluna2>, ...
+FROM <nome tabela>
+WHERE <coluna> <operador> '<valor>';
+
+--Filtro com condições compostas
+SELECT <coluna1>, <coluna2>, ...
+FROM <nome tabela>
+WHERE <coluna> <operador> '<valor>'
+<OP. LOGICO> <coluna> <operador> '<valor>'
+<OP. LOGICO> <coluna> <operador> '<valor>'
+...
+;
+
+--Ordenação de resultado crescente
+SELECT <coluna1>, <coluna2>, ...
+FROM <nome tabela>
+ORDER BY <coluna>;
+
+--Ordenação de resultado decrescente
+SELECT <coluna1>, <coluna2>, ...
+FROM <nome tabela>
+ORDER BY <coluna> DESC;
+
+--Atualização
+UPDATE <nome tabela>
+SET 	<coluna1> = '<valor1>',
+	<coluna2> = '<valor2>,
+	<colnua3> = '<valor3>,...
+WHERE	<condição>;
+
+--Exclusão
+DELETE FROM <nome tabela>
+WHERE <condicao>;

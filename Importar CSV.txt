@@ -1,0 +1,2 @@
+COPY <nome tabela> (<coluna1>, <coluna2>, ...,<ultimaColuna>)
+FROM '<endereco arquivo.CSV' DELIMITER ',' CSV HEADER;
